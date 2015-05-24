@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<style name="CatInTheHatTheme" parent="android:Theme.Material">
-		<item name="colorPrimary">@color/primary</item>
-		<item name="colorPrimaryDark">@color/primary_dark</item>
-		<item name="android:statusBarColor">@color/primary_dark</item>
-        <item name="actionMenuTextColor">@android:color/white</item>
-    </style>
-</resources>
