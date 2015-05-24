@@ -22,48 +22,48 @@ public class MainActivity extends AppCompatActivity {
 	public void onTheCatClick(View v){
 		Toast.makeText(this,
 		    getString(R.string.the_cat),
-		    Toast.LENGTH_LONG).show();
+		    Toast.LENGTH_SHORT).show();
 	}
 
 	@OnClick(R.id.btn_thing1)
 	public void onThing1Click(View v){
 		Toast.makeText(this,
 			getString(R.string.thing1),
-			Toast.LENGTH_LONG).show();
+			Toast.LENGTH_SHORT).show();
 	}
 
 	@OnClick(R.id.btn_thing2)
 	public void onThing2Click(View v){
 		Toast.makeText(this,
 			getString(R.string.thing2),
-			Toast.LENGTH_LONG).show();
+			Toast.LENGTH_SHORT).show();
 	}
 
 	@OnClick(R.id.btn_sally)
 	public void onSallyClick(View v){
 		Toast.makeText(this,
 			getString(R.string.sally),
-			Toast.LENGTH_LONG).show();
+			Toast.LENGTH_SHORT).show();
 	}
 
 	@OnClick(R.id.btn_nick)
 	public void onNickClick(View v){
 		Toast.makeText(this,
 			getString(R.string.nick),
-			Toast.LENGTH_LONG).show();
+			Toast.LENGTH_SHORT).show();
 	}
 
 	@OnClick(R.id.btn_thingj)
 	public void onThingjClick(View v){
 		Toast.makeText(this,
 			getString(R.string.thingamajigger),
-			Toast.LENGTH_LONG).show();
+			Toast.LENGTH_SHORT).show();
 	}
 
 	@OnClick(R.id.btn_seuss)
 	public void onSeussClick(View v){
 		Toast.makeText(this,
 			getString(R.string.dr_seuss),
-			Toast.LENGTH_LONG).show();
+			Toast.LENGTH_SHORT).show();
 	}
 }
